@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="40.0" layoutY="46.0" text="아이디" />
+      <TextField layoutX="108.0" layoutY="42.0" prefHeight="22.0" prefWidth="161.0" promptText="아이디르 입력하세요">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="34.0" layoutY="80.0" text="비밀번호" />
+      <PasswordField layoutX="108.0" layoutY="76.0" />
+      <HBox alignment="TOP_CENTER" layoutX="2.0" layoutY="114.0" prefHeight="22.0" prefWidth="294.0">
+         <children>
+            <Button mnemonicParsing="false" text="취소">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="로그인">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
